@@ -1,0 +1,89 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root {
+    --grayishBlue: hsl(237, 18%, 59%);
+    --softRed: hsl(345, 95%, 68%);
+    --white: hsl(0, 0%, 100%);
+    --darkDesaturatedBlue: hsl(236, 21%, 26%);
+    --veryDarkBlue: hsl(235, 16%, 14%);
+}
+body {
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 16px;
+    background-color: var(--veryDarkBlue);  
+}
+.container {
+    background-image: url(./images/bg-stars.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 569px;
+    position: relative;
+}
+.text {
+    font-weight: bold;
+    color: var(--white);
+    margin-top: 100px;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.time-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 110px;
+}
+.time-section div {
+    width: 100px;
+    height: 100px;
+    background-color: var(--darkDesaturatedBlue);
+    margin: 100px 20px 0;
+    border-radius: 10px;
+    color: var(--softRed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 60px;
+    font-weight: bold;
+}
+.time-section span  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--grayishBlue);
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.footer {
+    background-image: url(./images/pattern-hills.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 179px;
+}
+.social-media img {
+    width: 24px;
+    height: 24px;
+    margin: 80px 20px 0;
+    cursor: pointer;
+}
+.social-media img:hover {
+    background-color: var(--softRed);
+}
+.expired {
+    font-weight: bold;
+    color: var(--white);
+    margin-top: 100px;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+
+
+
